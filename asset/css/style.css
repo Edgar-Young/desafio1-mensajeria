@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+
+/* Estilo de textos*/
+.text-xs {
+  font-size: 0.6rem;
+}
+.text-sm {
+  font-size: 0.8rem;
+  color: green;
+}
+.text-md {
+  font-size: 1rem;
+}
+.text-lg {
+  font-size: 2.8rem;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+/* Estilos Boton */
+.bt-primary {
+  background-color: #a491d2;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Contacto */
+.contacto {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 17rem;
+  border-right: 1px solid #bec1bb;
+}
+
+/* Perfil principal */
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #e8ebe4;
+}
+.bg-user {
+  display: flex;
+  align-items: center;
+}
+.img-tiny {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.datos {
+  margin-left: 1rem;
+}
+.estado-diamond {
+  color: limegreen;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+/* Boton chat */
+.newchat {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8ebe4;
+}
+
+/* Otros perfiles */
+.perfil-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.main img {
+  width: 16rem;
+  margin-bottom: 1.5rem;
+}
+.descripcion {
+  width: 35rem;
+  text-align: center;
+  padding: 0 0.5rem;
+}
